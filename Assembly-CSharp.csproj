@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CubeScript.cs" />
     <Compile Include="Assets\InputForRotation.cs" />
     <Compile Include="Assets\SpaceNavigator\Plugins\QuaternionExtensions.cs" />
     <Compile Include="Assets\SpaceNavigator\Plugins\Settings\Locks.cs" />
@@ -285,14 +286,14 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/GameDev/Unity/2018.2.18f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="TDx.TDxInput">
+      <HintPath>D:/GameDev/Event Horizon/Cubo Rubik/Assets/SpaceNavigator/Plugins/TDx.TDxInput.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/Bado/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/Bado/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="TDx.TDxInput">
-      <HintPath>D:/GameDev/Event Horizon/Cubo Rubik/Assets/SpaceNavigator/Plugins/TDx.TDxInput.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/GameDev/Unity/2018.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

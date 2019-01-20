@@ -170,13 +170,5 @@ public class InputForRotation : MonoBehaviour {
                 ColliderForRotation = null;
             }
         }
-
-    }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Cube")
-        {
-            other.transform.SetParent(ColliderForRotation.transform);
-        }
     }
 }
