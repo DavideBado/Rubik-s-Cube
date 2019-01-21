@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{ED053F21-72DD-04B8-B119-9FCDFEB7B97F}</ProjectGuid>
+    <ProjectGuid>{59F6A061-F843-093B-CDDA-981AFE7C823A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -64,16 +64,16 @@
     <Compile Include="Assets\SpaceNavigator\Editor\SpaceNavigatorWindow.cs" />
     <Compile Include="Assets\SpaceNavigator\Editor\ViewportController.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/GameDev/Event Horizon/Cubo Rubik/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/GameDev/Sourcetree/Rubik's Cube/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/GameDev/Event Horizon/Cubo Rubik/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/GameDev/Sourcetree/Rubik's Cube/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/GameDev/Event Horizon/Cubo Rubik/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/GameDev/Sourcetree/Rubik's Cube/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/GameDev/Event Horizon/Cubo Rubik/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/GameDev/Sourcetree/Rubik's Cube/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/GameDev/Unity/2018.2.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -319,7 +319,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="TDx.TDxInput">
-      <HintPath>D:/GameDev/Event Horizon/Cubo Rubik/Assets/SpaceNavigator/Plugins/TDx.TDxInput.dll</HintPath>
+      <HintPath>D:/GameDev/Sourcetree/Rubik's Cube/Assets/SpaceNavigator/Plugins/TDx.TDxInput.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Bado/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -366,7 +366,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{E2774099-7F22-0FBE-1CAE-96294F81A7B8}</Project>
+      <Project>{EA58299D-3300-DA67-0925-A5DDBFB2A704}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
