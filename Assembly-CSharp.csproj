@@ -61,10 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraMove.cs" />
-    <Compile Include="Assets\CubeScript.cs" />
-    <Compile Include="Assets\FullRotation.cs" />
-    <Compile Include="Assets\InputForRotation.cs" />
+    <Compile Include="Assets\Scripts\CubeScript.cs" />
+    <Compile Include="Assets\Scripts\FullRotation.cs" />
+    <Compile Include="Assets\Scripts\InputForRotation.cs" />
     <Compile Include="Assets\SpaceNavigator\Plugins\QuaternionExtensions.cs" />
     <Compile Include="Assets\SpaceNavigator\Plugins\Settings\Locks.cs" />
     <Compile Include="Assets\SpaceNavigator\Plugins\Settings\Settings.cs" />
