@@ -22,8 +22,8 @@ public class CubeScript : MonoBehaviour {
         // ho provato a spostare il rend.sharedMaterial[0] in un TriggerExit, ma non lo legge....creando una funzione e richiamandola nello script dei trigger
         // le cose migliorano, ma evidenzia un solo cubo e non la fila, ho provato con i foreach, ma non sono riuscito a farli funzionare come volevo
         
-        TriggerCheck = Trigger.GetComponent<Collider>().enabled;
-        if (TriggerCheck == true)
+        
+        if (TriggerCheck == true && Trigger.GetComponent<Collider>().enabled == true)
         {
             rend.sharedMaterial = material[1];
         }
@@ -34,5 +34,6 @@ public class CubeScript : MonoBehaviour {
     {
         this.transform.parent = other.transform;
         Trigger = other.gameObject;
+        TriggerCheck = true;
     }    
 }

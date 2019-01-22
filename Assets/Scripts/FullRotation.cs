@@ -17,7 +17,7 @@ public class FullRotation : MonoBehaviour {
         // Help me Lord, I'm lost, I want my mommy point
         if (Input.GetKeyDown(KeyCode.R))
         {
-            this.transform.rotation = Quaternion.identity;
+            transform.rotation = Quaternion.Euler(new Vector3(0, 140, 0));
         }
 	}
 

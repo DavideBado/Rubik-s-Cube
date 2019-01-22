@@ -85,11 +85,11 @@ public class InputForRotation : MonoBehaviour {
                 {
                     ColliderForRotation = GameObject.Find("VertZCentral");
                 }
-                else if (Input.GetKeyDown(KeyCode.A))
+                if (Input.GetKeyDown(KeyCode.A))
                 {
                     ColliderForRotation = GameObject.Find("VertZLeft");
                 }
-                else if (Input.GetKeyDown(KeyCode.D))
+                if (Input.GetKeyDown(KeyCode.D))
                 {
                     ColliderForRotation = GameObject.Find("VertZRight");
                 }
