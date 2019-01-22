@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CameraMove.cs" />
     <Compile Include="Assets\CubeScript.cs" />
     <Compile Include="Assets\FullRotation.cs" />
     <Compile Include="Assets\InputForRotation.cs" />
