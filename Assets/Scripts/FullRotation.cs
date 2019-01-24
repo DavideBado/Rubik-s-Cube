@@ -13,7 +13,7 @@ public class FullRotation : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        //**************************************************
+        //*******************TEST MOUSE*******************************
         if (Input.GetKey(KeyCode.Mouse0))
         {
             RaycastHit hit;
